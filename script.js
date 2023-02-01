@@ -1,4 +1,3 @@
-//your code here
 // console.log("Random User")
 
 
