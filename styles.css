@@ -1,2 +1,48 @@
-
-/* Your CSS Code here. */
+body{
+    background-color: #000000;
+    color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-dash{
+    width: 80%;
+    height: 90%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column;
+}
+/* #user-dash{
+    display: none;
+} */
+.user-dash div{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+button{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 15px;
+}
+#add-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
